@@ -1,0 +1,41 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #110707;
+}
+
+a {
+  color: #0d4261;
+  text-decoration: none;
+}
+img {
+    max-width:5%;
+    height: 10%;
+    position: Right;
+  }
+
+/* Header Styles */
+header {
+  background-color: #aab6bd;
+  color: #cf2323;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 1rem;
+}
+
+nav ul li
