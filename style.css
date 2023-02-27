@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  justify-content: center;
 }
 
 body {
@@ -19,14 +20,16 @@ a {
 img {
     max-width:5%;
     height: 10%;
-    position: Right;
+   justify-content: center;
+   position: relative;
   }
 
 /* Header Styles */
 header {
   background-color: #aab6bd;
-  color: #cf2323;
+  color: #6e3d3d;
   padding: 1rem;
+  
 }
 
 nav ul {
@@ -35,7 +38,6 @@ nav ul {
 }
 
 nav ul li {
-  margin-right: 1rem;
+  margin-left: 1rem;
+  list-style: none;
 }
-
-nav ul li
